@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 2em;}
+h2{ font-size: 1.5em;}
+p{ font-size: 1.25em;}
+
+
+
+.contenedor2{
+    max-width: 1400px;
+    margin: auto;
+}
+
+#hero .contenedor{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 500px;
+}
+
+#hero .contenedor1{
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    width: 10px;
+}
+
+#hero .contenedor3{
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    width: 20px;
+}
+
+#hero .texto{
+    display: flex;
+    font-family: 'Century Gothic ', monospace;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    flex-direction: column;
+    max-width: none;
+    background: rgb(253, 194, 139);
+    background-size: cover;
+    background-position: center center;
+    background-size: auto;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    height: 400px;
+    width: 300px; 
+}
+
+#hero .texto1{
+    display: flex;
+    align-items: left;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+    height: 400px;
+    width: 600px; 
+    
+}
+
+
+#hero h1{
+    color: white;
+}
+
+#hero h2{
+    color: white;
+}
+
+#hero p{
+    color: white;
+}
+
+#hero .img-container{
+    background-image: url("media/Imagen\ cv.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 300px; 
+}
+
+#hero .contenedor2{
+    display: flex;
+    justify-content: center;
+    padding: 10px 12px;
+}
+
+#imagen h2{
+    margin-top: 0px;
+}
+
+#hero{
+    background-color: rgb(30,30,30);
+    color: black;
+    text-align: center;
+}
+
+#informacion .container{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 500px;
+}
+
+#informacion .container1{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 400px;
+}
+#informacion .container2{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 400px;
+}
+#informacion .container3{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 400px;
+}
+
+
+#informacion .text{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+
+#informacion .text1{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+#informacion .text2{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+
+#informacion2 .cont{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 300px;
+}
+
+#informacion2 .cont1{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 500px;
+}
+#informacion2 .cont2{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 500px;
+}
+#informacion2 .cont3{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 500px;
+}
+
+#informacion2 .tex{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+
+#informacion2 .tex1{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+#informacion2 .tex2{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+
+#informacion3 .con{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 300px;
+}
+
+#informacion3 .con1{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 500px;
+}
+#informacion3 .con2{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 500px;
+}
+#informacion3 .con3{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    width: 1700px;
+    height: 500px;
+}
+
+#informacion3 .text{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+
+#informacion3 .text1{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+#informacion3 .text2{
+    display: flex;
+    align-items: center;
+    font-family: 'Century Gothic ', monospace;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid white;
+    max-width: none;
+    padding-left: 30px;
+    background-size: cover;
+ 
+}
+
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .contenedor2{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+}
