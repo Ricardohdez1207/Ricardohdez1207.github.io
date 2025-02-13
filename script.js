@@ -7,6 +7,10 @@ document.getElementById("yesBtn").addEventListener("click", function () {
     response.innerHTML = "¡Sabía que dirías que sí! 🌻<br>Te ama tu lobo domesticado 🐺❤️";
     response.style.display = "block"; // Mostrar el mensaje
 
+    // Reproducir la canción
+    let song = document.getElementById("loveSong");
+    song.play();
+    
     // Ocultar el botón "Sí" después de hacer clic
     let yesButton = document.getElementById("yesBtn");
     yesButton.style.display = "none"; // Elimina el botón
