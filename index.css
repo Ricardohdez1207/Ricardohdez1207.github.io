@@ -131,7 +131,6 @@ button {
     font-size: 1.5rem;
     color: #ff6f91;
     display: none; /* Oculto por defecto */
-    margin-top: 90px; /* Espacio entre el contenedor y la respuesta */
     text-align: center;
     width: 100%;
     white-space: pre-line; /* Permite saltos de línea */
