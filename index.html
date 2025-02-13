@@ -1,115 +1,64 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <title>Curriculum Vitae</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amelei</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- Corazones flotando -->
+    <div class="floating-heart"></div>
+    <div class="floating-heart"></div>
+    <div class="floating-heart"></div>
+    <div class="floating-heart"></div>
+    <div class="floating-heart"></div>
 
-    <section id="hero">
-        <div class="contenedor">
-            <div class="contenedor 1">
-                <div class="texto">
-                    <h2> <br>ABOUT ME</h2>
-                    <p> ____________</p>
-                    <p> I am a young person <br>
-                        responsible, full of<br>
-                        energy</p>
-                </div>
-            </div>
-            <div class="contenedor 2">
-                <div class="img-container"></div>
-            </div>
-            <div class="contenedor 3">
-                <div class="texto1">
-                    <h1>Ricardo <br>Hernández <br> Castro</h1>
-                </div>
-            </div>
-    </section>
+    <!-- Flores flotando -->
+    <div class="floating-flower"></div>
+    <div class="floating-flower"></div>
+    <div class="floating-flower"></div>
+    <div class="floating-flower"></div>
+    <div class="floating-flower"></div>
 
-    <section id="informacion">
-            <div class="container">
-                <div class="container 1">
-                    <div class="text">
-                        <h1>CONTACT</h1>
-                        <p> Phone: 3322281296</p>
-                        <p> Age: 19 years</p>
-                        <p> Nationality: Mexican</p>
-                        <p> Mail: ricardo.hernandez5754@alumnos.udg.mx</p>
-                    </div>
-                </div>
-                <div class="container 2">
-                    <div class="text1">
-                        <H2>DEGREES OF STUDY</H2>
-                        <p>studied: 3 and 4 semester</p>
-                        <p>studying: 5 semester</p>
-                    </div>
-                </div>
-                <div class="container 3">
-                    <div class="text2">
-                        <H2>SKILLS</H2>
-                        <p>Problem resolution: 90%</p>
-                        <p>Team work: 95%</p>
-                        <p>Empathic: 100%</p>
-                    </div>
-                </div>
-            </div>
-    </section>
-
-    <section id="informacion2">
-        <div class="cont">
-            <div class="cont 1">
-                <div class="tex">
-                    <h2>Work experience</h2>
-                    <p> Sales associate: 7 eleven</p>
-                </div>
-            </div>
-            <div class="cont 2">
-                <div class="tex1">
-                    <H2>Project experience</H2>
-                    <p>Hospital database</p>
-                </div>
-            </div>
-            <div class="cont 3">
-                <div class="tex2">
-                    <H2>Professional interests</H2>
-                    <p>WebSites</p>
-                </div>
-            </div>
+    <div class="container">
+        <h1>Amelie <br><br>¿Quieres ser mi <br>San Valentín? ❤️</h1>
+        <div class="buttons">
+            <button id="yesBtn">Sí ❤️</button>
+            <button id="noBtn">No 💔</button>
         </div>
-    </section>
+        <!-- Contenedor de respuesta debajo -->
+    <div class="response" id="response"></div>
+    </div>
+    
+    <!-- Corazones animados -->
+    <div class="hearts">❤️</div>
+    <div class="hearts1">❤️</div>
+    <div class="hearts2">❤️</div>
 
-    <section id="informacion3">
-        <div class="con">
-            <div class="con 1">
-                <div class="text">
-                    <H2>Software with knowledge</H2>
-                    <p>Visual studio</p>
-                    <p>Visual studio code</p>
-                    <p>Code blocks</p>
-                    <p>Eclipse</p>
-                    <p>Spider</p>
-                    
-                </div>
-            </div>
-            <div class="con 2">
-                <div class="text1">
-                    <h2>Language with knowledge</h2>
-                    <p>C++: 80%</p>
-                    <p>C: 80%</p>
-                    <p>Python: 35%</p>
-                    <p>Javascript: 5%</p>
-                    <p>C#: 75%</p>
-                </div>
-            </div>
-            <div class="con 3">
-                <div class="text2">
-                    <H2>References</H2>
-                    <p>Hermes Cardenas - 7 eleven manager</p>
-                    <p>Fernando Baruch</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <script>
+        // Función que selecciona aleatoriamente entre corazón y flor
+        function randomSymbol() {
+          const symbols = ['❤️', '🌼', '🌷', '🌹']; // Símbolos posibles
+          return symbols[Math.floor(Math.random() * symbols.length)];
+        }
+      
+        // Función para asignar el símbolo aleatorio a los elementos
+        function assignRandomSymbols() {
+          document.querySelector('.hearts').textContent = randomSymbol();
+          document.querySelector('.hearts1').textContent = randomSymbol();
+          document.querySelector('.hearts2').textContent = randomSymbol();
+        }
+      
+        // Asignamos los símbolos aleatorios cuando la página se cargue
+        window.onload = assignRandomSymbols;
+      
+        // Configuramos un intervalo para actualizar los símbolos cada 4 segundos
+        setInterval(assignRandomSymbols, 4000); // Cambia los símbolos cada 4 segundos
+      </script>
+      
 
+    <script src="script.js"></script>
+</body>
 </html>
