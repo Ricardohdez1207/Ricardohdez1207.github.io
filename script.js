@@ -4,13 +4,21 @@ const response = document.getElementById('response');
 
 document.getElementById("yesBtn").addEventListener("click", function () {
     let response = document.getElementById("response");
-    response.innerHTML = "¡Sabía que dirías que sí! 🌻<br>Te ama tu lobo domesticado 🐺❤️";
+    response.innerHTML = `¡Sabía que dirías que sí! 🌻<br>
+                          <img src="nata.jpg" alt="Imagen romántica" style="width: 250px; border-radius: 10px; margin-top: 10px;"><br>
+                          Te ama tu lobo domesticado 🐺❤️`;
     response.style.display = "block"; // Mostrar el mensaje
+
+   // Ocultar el título <h1>
+   let title = document.getElementById("title");
+   if (title) {
+       title.style.display = "none"; // Desaparece el h1
+   }
 
     // Reproducir la canción
     let song = document.getElementById("loveSong");
     song.play();
-    
+
     // Ocultar el botón "Sí" después de hacer clic
     let yesButton = document.getElementById("yesBtn");
     yesButton.style.display = "none"; // Elimina el botón
